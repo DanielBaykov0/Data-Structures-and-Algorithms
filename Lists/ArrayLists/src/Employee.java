@@ -37,11 +37,11 @@ public class Employee {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Employee employee)) return false;
+        if (!(o instanceof Employee employee1)) return false;
 
-        if (id != employee.id) return false;
-        if (!firstName.equals(employee.firstName)) return false;
-        return lastName.equals(employee.lastName);
+        if (id != employee1.id) return false;
+        if (!firstName.equals(employee1.firstName)) return false;
+        return lastName.equals(employee1.lastName);
     }
 
     @Override
