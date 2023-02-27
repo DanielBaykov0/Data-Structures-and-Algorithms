@@ -1,4 +1,4 @@
-public class MainStack {
+public class MainArrayStack {
 
     public static void main(String[] args) {
 
