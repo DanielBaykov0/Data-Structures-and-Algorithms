@@ -18,5 +18,10 @@ public class MainHashTable {
 
         System.out.println("Retrieve key Wilson: "+hashTable.get("Wilson"));
         System.out.println("Retrieve key Mary: "+hashTable.get("Smith"));
+
+        hashTable.remove("Wilson");
+        hashTable.remove("Jones");
+
+        hashTable.printHashTable();
     }
 }
