@@ -1,0 +1,28 @@
+public class MainChainedHashTable {
+
+    public static void main(String[] args) {
+
+        Employee janeJones = new Employee("Jane", "Jones", 123);
+        Employee johnDoe = new Employee("John", "Doe", 4567);
+        Employee marySmith = new Employee("Mary", "Smith", 22);
+        Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
+
+        ChainedHashTable hashTable = new ChainedHashTable();
+        hashTable.put("Jones",janeJones);
+        hashTable.put("Doe",johnDoe);
+        hashTable.put("Wilson",mikeWilson);
+        hashTable.put("Smith",marySmith);
+
+        hashTable.printHashTable();
+
+//        System.out.println("Retrieve key Smith: " + hashTable.get("Smith"));
+//
+//        hashTable.remove("Doe");
+//        hashTable.remove("Jones");
+//
+//        hashTable.printHashTable();
+//
+//        System.out.println("Retrieve key Smith: " + hashTable.get("Smith"));
+
+    }
+}
