@@ -23,5 +23,7 @@ public class MainHashTable {
         hashTable.remove("Jones");
 
         hashTable.printHashTable();
+
+        System.out.println("Retrieve key Smith: " + hashTable.get("Smith"));
     }
 }

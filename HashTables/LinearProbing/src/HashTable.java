@@ -45,6 +45,15 @@ public class HashTable {
 
         Employee employee = hashTable[hashedKey].employee;
         hashTable[hashedKey] = null;
+
+        StoredEmployee[] oldHashTable = hashTable;
+        hashTable = new StoredEmployee[oldHashTable.length];
+        for (int i = 0; i < oldHashTable.length; i++) {
+            if (oldHashTable[i] != null) {
+                put(oldHashTable[i].key, oldHashTable[i].employee);
+            }
+        }
+
         return employee;
     }
 
