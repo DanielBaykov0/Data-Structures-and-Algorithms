@@ -1,4 +1,4 @@
-public class Insertion {
+public class MainTree {
 
     public static void main(String[] args) {
 
@@ -13,5 +13,6 @@ public class Insertion {
         intTree.insert(22);
         intTree.insert(32);
 
+        intTree.traverseInOrder();
     }
 }
