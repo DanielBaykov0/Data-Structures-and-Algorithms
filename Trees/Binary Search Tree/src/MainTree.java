@@ -18,11 +18,20 @@ public class MainTree {
         intTree.traverseInOrder();
         System.out.println();
 
-        System.out.println(intTree.get(27));
-        System.out.println(intTree.get(17));
-        System.out.println(intTree.get(99));
+//        System.out.println(intTree.get(27));
+//        System.out.println(intTree.get(17));
+//        System.out.println(intTree.get(99));
+//
+//        System.out.println(intTree.min());
+//        System.out.println(intTree.max());
 
-        System.out.println(intTree.min());
-        System.out.println(intTree.max());
+//        intTree.delete(15);
+//        intTree.delete(17);
+//        intTree.delete(27);
+//        intTree.delete(25);
+//        intTree.delete(99);
+
+        intTree.traverseInOrder();
+        System.out.println();
     }
 }
