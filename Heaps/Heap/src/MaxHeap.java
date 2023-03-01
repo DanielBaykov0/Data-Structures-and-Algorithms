@@ -39,6 +39,14 @@ public class MaxHeap {
         return deletedValue;
     }
 
+    public int peek() {
+        if (isEmpty()) {
+            throw new IndexOutOfBoundsException("Heap is empty");
+        }
+
+        return heap[0];
+    }
+
     private void fixHeapAbove(int index) {
         int newValue = heap[index];
         while (index > 0 && newValue > heap[getParent(index)]) {
