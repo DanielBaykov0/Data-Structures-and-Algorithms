@@ -15,8 +15,8 @@ public class MainTree {
         intTree.insert(32);
         intTree.insert(17);
 
-        intTree.traverseInOrder();
-        System.out.println();
+//        intTree.traverseInOrder();
+//        System.out.println();
 
 //        System.out.println(intTree.get(27));
 //        System.out.println(intTree.get(17));
@@ -31,7 +31,11 @@ public class MainTree {
 //        intTree.delete(25);
 //        intTree.delete(99);
 
-        intTree.traverseInOrder();
+//        intTree.traverseInOrder();
+//        System.out.println();
+
+        intTree.traversePreOrder();
         System.out.println();
+        intTree.traversePostOrder();
     }
 }
